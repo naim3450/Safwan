@@ -3,7 +3,7 @@ import Group from '../assets/Group.png'
 import bennarImg from '../assets/bennarImg.png'
 import CommonButton from '../Component/CommonButton'
 
-const Bennar = () => {
+const Banner = () => {
     return (
         <div className='w-full h-[850px] flex relative'>
             <div className="left-b bg-[#00413D] w-[60%] h-full">
@@ -30,4 +30,4 @@ const Bennar = () => {
     )
 }
 
-export default Bennar
+export default Banner

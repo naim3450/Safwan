@@ -5,13 +5,13 @@ import Service from './Layouts/Service'
 import About from './Layouts/About'
 import RecentProject from './Layouts/RecentProject'
 import Protfolio from './Layouts/Protfolio'
-import Bennar from './Layouts/Bennar.JSX'
 import Client from './Layouts/Client'
 import Contact from './Layouts/Contact'
 import Blog from './Layouts/Blog'
 import Footer from './Layouts/Footer'
 import 'lenis/dist/lenis.css'
 import Lenis from 'lenis'
+import Banner from './Layouts/Banner'
 
 
 function App() {
@@ -31,7 +31,7 @@ function App() {
         <Navber />
       </Container>
 
-      <Bennar />
+      <Banner />
       <Container>
         <Service />
         <About />
