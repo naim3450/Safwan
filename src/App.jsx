@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import Container from './Component/Container'
 import Navber from './Layouts/Navber'
 import Service from './Layouts/Service'
@@ -12,8 +12,6 @@ import Blog from './Layouts/Blog'
 import Footer from './Layouts/Footer'
 import 'lenis/dist/lenis.css'
 import Lenis from 'lenis'
-import Circular from './Component/Circular'
-
 
 
 function App() {
@@ -24,6 +22,7 @@ function App() {
     lenis.raf(time)
     requestAnimationFrame(raf)
   }
+
   requestAnimationFrame(raf)
 
   return (
@@ -45,8 +44,6 @@ function App() {
         <Blog />
       </Container>
       <Footer />
-
-      {/* <Circular /> */}
     </div>
   )
 }
